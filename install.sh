@@ -1,5 +1,6 @@
 #!/bin/bash
 sudo echo Hi!
+pwdpath=$(pwd)
 # Get information from your user
 pythonpath="$pwdpath/venv/bin/python"
 send_message_path="$pwdpath/send_message.py"
